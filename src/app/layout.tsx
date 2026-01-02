@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Header, Footer } from "@/components/layout";
+import { BackgroundDecor } from "@/components/ui/BackgroundDecor";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -39,6 +40,16 @@ export const metadata: Metadata = {
     title: "Dr. Keith Ndlovu | Physician • Artist • Leader",
     description: "Where medicine meets art. Healing bodies. Creating beauty. Leading change.",
   },
+  metadataBase: new URL("https://drkeithndlovu.com"),
+  alternates: { canonical: "/" },
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
@@ -51,6 +62,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${playfair.variable} font-sans antialiased bg-white text-neutral-900`}
       >
+        <BackgroundDecor />
         <Header />
         <main>{children}</main>
         <Footer />
