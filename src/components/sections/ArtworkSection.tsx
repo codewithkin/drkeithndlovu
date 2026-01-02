@@ -126,8 +126,8 @@ export function ArtworkSection() {
                                     <div className="absolute top-4 left-4">
                                         <span
                                             className={`px-3 py-1 text-xs font-medium rounded-full ${artwork.available
-                                                    ? "bg-emerald-100 text-emerald-700"
-                                                    : "bg-neutral-200 text-neutral-600"
+                                                ? "bg-amber-100 text-amber-700"
+                                                : "bg-neutral-200 text-neutral-600"
                                                 }`}
                                         >
                                             {artwork.available ? "Available" : "Sold"}

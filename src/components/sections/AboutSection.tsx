@@ -45,14 +45,14 @@ export function AboutSection() {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.3, duration: 0.6 }}
-                            className="absolute -bottom-6 -right-6 w-48 h-48 bg-amber-100 rounded-2xl -z-10"
+                            className="absolute -bottom-6 -right-6 w-48 h-48 bg-amber-100/60 rounded-2xl -z-10"
                         />
                         <motion.div
                             initial={{ opacity: 0, scale: 0.8 }}
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.4, duration: 0.6 }}
-                            className="absolute -top-6 -left-6 w-32 h-32 bg-blue-100 rounded-2xl -z-10"
+                            className="absolute -top-6 -left-6 w-32 h-32 bg-neutral-200 rounded-2xl -z-10"
                         />
                     </motion.div>
 

@@ -81,7 +81,7 @@ export function ArtisticoSection() {
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Button
                                 asChild
-                                className="bg-amber-500 hover:bg-amber-600 text-neutral-900 font-semibold"
+                                className="bg-white hover:bg-neutral-100 text-neutral-900 font-semibold"
                             >
                                 <Link href="/artistico-studios">Explore the Studio</Link>
                             </Button>
@@ -151,7 +151,7 @@ export function ArtisticoSection() {
                             whileInView={{ opacity: 1, scale: 1 }}
                             viewport={{ once: true }}
                             transition={{ delay: 0.4, duration: 0.5 }}
-                            className="absolute -top-6 -right-6 bg-amber-500 text-neutral-900 rounded-xl p-4 shadow-2xl"
+                            className="absolute -top-6 -right-6 bg-white text-neutral-900 rounded-xl p-4 shadow-2xl"
                         >
                             <div className="text-center">
                                 <p className="text-2xl font-bold">100+</p>

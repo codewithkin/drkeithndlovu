@@ -67,9 +67,9 @@ export function ContactSection() {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 viewport={{ once: true }}
                                 transition={{ delay: 0.2 }}
-                                className="flex gap-4 p-4 rounded-xl bg-blue-50 border border-blue-100"
+                                className="flex gap-4 p-4 rounded-xl bg-neutral-100 border border-neutral-200"
                             >
-                                <div className="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center shrink-0">
+                                <div className="w-12 h-12 rounded-full bg-neutral-200 flex items-center justify-center shrink-0">
                                     <span className="text-2xl">🩺</span>
                                 </div>
                                 <div>

@@ -101,13 +101,13 @@ export function MedicalSection() {
                         viewport={{ once: true, margin: "-100px" }}
                         transition={smoothTransition}
                     >
-                        <span className="text-blue-600 font-medium text-sm uppercase tracking-wider">
+                        <span className="text-amber-600 font-medium text-sm uppercase tracking-wider">
                             Medical Practice
                         </span>
                         <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mt-3 mb-6">
                             Westpoint
                             <br />
-                            <span className="text-blue-600">Medical Centre</span>
+                            <span className="text-amber-600">Medical Centre</span>
                         </h2>
                         <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
                             At Westpoint Medical Centre, we believe that exceptional medical
@@ -139,9 +139,9 @@ export function MedicalSection() {
                                     transition={{ delay: index * 0.1 }}
                                     className="flex items-center gap-3"
                                 >
-                                    <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
+                                    <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
                                         <svg
-                                            className="w-5 h-5 text-blue-600"
+                                            className="w-5 h-5 text-amber-600"
                                             fill="none"
                                             stroke="currentColor"
                                             viewBox="0 0 24 24"
@@ -161,7 +161,7 @@ export function MedicalSection() {
                             ))}
                         </div>
 
-                        <Button asChild className="bg-blue-600 hover:bg-blue-700">
+                        <Button asChild className="bg-neutral-900 hover:bg-neutral-800">
                             <Link href="/medical-practice">
                                 Learn More About Our Practice
                             </Link>
@@ -178,9 +178,9 @@ export function MedicalSection() {
                                 viewport={{ once: true, margin: "-50px" }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                             >
-                                <Card className="group border border-neutral-200 hover:border-blue-200 hover:shadow-lg transition-all duration-300 h-full">
+                                <Card className="group border border-neutral-200 hover:border-amber-200 hover:shadow-lg transition-all duration-300 h-full">
                                     <CardContent className="p-6">
-                                        <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center text-blue-600 mb-4 group-hover:bg-blue-100 transition-colors">
+                                        <div className="w-14 h-14 rounded-xl bg-neutral-100 flex items-center justify-center text-neutral-700 mb-4 group-hover:bg-amber-50 group-hover:text-amber-600 transition-colors">
                                             {service.icon}
                                         </div>
                                         <h3 className="text-lg font-semibold text-neutral-900 mb-2">

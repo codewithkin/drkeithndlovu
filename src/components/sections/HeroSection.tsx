@@ -14,20 +14,20 @@ export function HeroSection() {
     return (
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
             {/* Background */}
-            <div className="absolute inset-0 bg-gradient-to-br from-neutral-50 via-white to-amber-50/30" />
+            <div className="absolute inset-0 bg-gradient-to-br from-neutral-50 via-white to-neutral-100/50" />
 
             {/* Decorative Elements */}
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.2, delay: 0.5 }}
-                className="absolute top-20 right-10 w-72 h-72 bg-amber-100/40 rounded-full blur-3xl"
+                className="absolute top-20 right-10 w-72 h-72 bg-neutral-200/40 rounded-full blur-3xl"
             />
             <motion.div
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 1.2, delay: 0.7 }}
-                className="absolute bottom-20 left-10 w-96 h-96 bg-blue-100/30 rounded-full blur-3xl"
+                className="absolute bottom-20 left-10 w-96 h-96 bg-neutral-200/30 rounded-full blur-3xl"
             />
 
             {/* Content */}
@@ -44,7 +44,7 @@ export function HeroSection() {
                         transition={defaultTransition}
                         className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-neutral-200 mb-8"
                     >
-                        <span className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse" />
+                        <span className="w-2 h-2 bg-amber-500 rounded-full animate-pulse" />
                         <span className="text-sm text-neutral-600">
                             CEO Westpoint Medical Centre • Founder Artistico Studios
                         </span>
