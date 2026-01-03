@@ -76,7 +76,7 @@ export function HeroSection() {
                     >
                         Healing bodies. Creating beauty. Leading change.
                         <br />
-                        A physician-artist bridging the worlds of science and creativity.
+                        I bridge the worlds of science and creativity.
                     </motion.p>
 
                     {/* CTAs */}

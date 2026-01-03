@@ -25,7 +25,7 @@ export default function AboutPage() {
                         </h1>
                         <p className="text-xl text-neutral-600 leading-relaxed max-w-2xl">
                             Where the precision of medicine meets the passion of art.
-                            A journey of healing bodies, creating beauty, and inspiring change.
+                            My journey of healing bodies, creating beauty, and inspiring change.
                         </p>
                     </motion.div>
                 </div>
@@ -91,25 +91,25 @@ export default function AboutPage() {
                             {/* The Journey */}
                             <div>
                                 <h2 className="text-3xl font-bold text-neutral-900 mb-6">
-                                    The Journey
+                                    My Journey
                                 </h2>
                                 <div className="space-y-4 text-neutral-600 leading-relaxed">
                                     <p>
-                                        Dr. Keith Ndlovu represents a rare combination of medical
-                                        expertise and artistic vision. As CEO of Westpoint Medical
-                                        Centre and founder of Artistico Studios, he demonstrates that
-                                        the pursuit of excellence knows no boundaries.
+                                        I've built my life at the intersection of medical expertise
+                                        and artistic vision. As CEO of Westpoint Medical Centre
+                                        and founder of Artistico Studios, I've learned that the
+                                        pursuit of excellence knows no boundaries.
                                     </p>
                                     <p>
-                                        His art reflects the same precision, empathy, and innovation
-                                        that defines his medical practice. Each piece tells a story of
+                                        My art reflects the same precision, empathy, and innovation
+                                        that defines my medical practice. Each piece tells a story of
                                         human experience, informed by years of caring for patients and
                                         understanding the delicate balance between science and soul.
                                     </p>
                                     <p>
                                         From childhood drawings of the human body to performing
                                         life-saving treatments, from sketching portraits to founding an
-                                        art studio that nurtures emerging talent. His journey proves
+                                        art studio that nurtures emerging talent. My journey has shown me
                                         that excellence in one field can enhance excellence in another.
                                     </p>
                                 </div>
@@ -122,15 +122,15 @@ export default function AboutPage() {
                                 </h2>
                                 <div className="space-y-4 text-neutral-600 leading-relaxed">
                                     <p>
-                                        As CEO of Westpoint Medical Centre, Dr. Ndlovu leads a team
+                                        As CEO of Westpoint Medical Centre, I lead a team
                                         dedicated to providing comprehensive healthcare services to
                                         the Harare community and beyond.
                                     </p>
                                     <p>
-                                        His approach to medicine is deeply personal, treating each
+                                        My approach to medicine is deeply personal. I treat each
                                         patient as an individual with unique needs and circumstances.
                                         This same attention to detail and empathy carries through to
-                                        every aspect of his work.
+                                        every aspect of my work.
                                     </p>
                                 </div>
                             </div>
@@ -142,16 +142,16 @@ export default function AboutPage() {
                                 </h2>
                                 <div className="space-y-4 text-neutral-600 leading-relaxed">
                                     <p>
-                                        Through Artistico Studios, Dr. Ndlovu has created a platform
+                                        Through Artistico Studios, I've created a platform
                                         for artistic expression and mentorship. The studio serves as
                                         both a creative workspace and a launching pad for emerging
                                         artists in Zimbabwe.
                                     </p>
                                     <p>
-                                        His personal work spans multiple mediums including oil,
+                                        My personal work spans multiple mediums including oil,
                                         acrylic, watercolor, and digital art. Many pieces draw
                                         inspiration from the human body and the themes of healing,
-                                        resilience, and hope that define his medical career.
+                                        resilience, and hope that define my medical career.
                                     </p>
                                 </div>
                             </div>

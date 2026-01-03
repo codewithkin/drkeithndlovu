@@ -21,7 +21,7 @@ const studioServices = [
     {
         title: "Buy",
         description:
-            "Discover and acquire unique artwork from Dr. Ndlovu and our featured emerging artists.",
+            "Discover and acquire unique artwork from my collection and our featured emerging artists.",
         icon: "✨",
     },
 ];
@@ -48,8 +48,8 @@ export function ArtisticoSection() {
                         </h2>
                         <p className="text-lg text-neutral-300 mb-6 leading-relaxed">
                             More than a gallery, Artistico Studios is a creative ecosystem
-                            where art is born, shared, and celebrated. Founded by Dr. Keith
-                            Ndlovu to bridge the gap between artists and art lovers.
+                            where art is born, shared, and celebrated. I founded it to
+                            bridge the gap between artists and art lovers.
                         </p>
                         <p className="text-neutral-400 mb-8 leading-relaxed">
                             We create, sell, and buy unique art. Whether you're an artist

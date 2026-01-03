@@ -158,8 +158,8 @@ export default function ArtPortfolioPage() {
                             The Collection
                         </h1>
                         <p className="text-xl text-neutral-600 leading-relaxed max-w-2xl">
-                            A curated selection of pieces that bridge the worlds of medicine and
-                            art. Each work reflects a unique perspective shaped by years of
+                            A curated selection of my pieces that bridge the worlds of medicine and
+                            art. Each work reflects my unique perspective shaped by years of
                             healing and creating.
                         </p>
                     </motion.div>
@@ -180,8 +180,8 @@ export default function ArtPortfolioPage() {
                                 key={category}
                                 onClick={() => setSelectedCategory(category)}
                                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === category
-                                        ? "bg-neutral-900 text-white"
-                                        : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
+                                    ? "bg-neutral-900 text-white"
+                                    : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
                                     }`}
                             >
                                 {category}
@@ -240,8 +240,8 @@ export default function ArtPortfolioPage() {
                                         <div className="absolute top-4 left-4">
                                             <span
                                                 className={`px-3 py-1 text-xs font-medium rounded-full ${artwork.available
-                                                        ? "bg-amber-100 text-amber-700"
-                                                        : "bg-neutral-200 text-neutral-600"
+                                                    ? "bg-amber-100 text-amber-700"
+                                                    : "bg-neutral-200 text-neutral-600"
                                                     }`}
                                             >
                                                 {artwork.available ? "Available" : "Sold"}
@@ -332,8 +332,8 @@ export default function ArtPortfolioPage() {
                                     <div>
                                         <span
                                             className={`inline-block px-3 py-1 text-xs font-medium rounded-full mb-3 ${selectedArtwork.available
-                                                    ? "bg-amber-100 text-amber-700"
-                                                    : "bg-neutral-200 text-neutral-600"
+                                                ? "bg-amber-100 text-amber-700"
+                                                : "bg-neutral-200 text-neutral-600"
                                                 }`}
                                         >
                                             {selectedArtwork.available ? "Available" : "Sold"}

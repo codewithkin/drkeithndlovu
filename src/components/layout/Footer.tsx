@@ -7,7 +7,7 @@ const quickLinks = [
 ];
 
 const resourceLinks = [
-    { label: "About Dr. Ndlovu", href: "/about" },
+    { label: "About Me", href: "/about" },
     { label: "Contact", href: "/contact" },
 ];
 
@@ -35,7 +35,7 @@ export function Footer() {
                         </Link>
                         <p className="text-neutral-400 text-sm leading-relaxed mb-6">
                             Where the precision of medicine meets the passion of art.
-                            Healing bodies, creating beauty, and inspiring change.
+                            I heal bodies, create beauty, and inspire change.
                         </p>
                         {/* Social Links */}
                         <div className="flex gap-4">

@@ -77,8 +77,8 @@ export function ArtworkSection() {
                         Featured Artworks
                     </h2>
                     <p className="text-lg text-neutral-600">
-                        A curated selection of pieces that bridge the worlds of medicine and
-                        art. Each work reflects a unique perspective shaped by years of
+                        A curated selection of my pieces that bridge the worlds of medicine and
+                        art. Each work reflects my unique perspective shaped by years of
                         healing and creating.
                     </p>
                 </motion.div>

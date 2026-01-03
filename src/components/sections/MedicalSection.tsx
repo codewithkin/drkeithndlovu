@@ -110,13 +110,13 @@ export function MedicalSection() {
                             <span className="text-amber-600">Medical Centre</span>
                         </h2>
                         <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
-                            At Westpoint Medical Centre, we believe that exceptional medical
+                            At Westpoint Medical Centre, I believe that exceptional medical
                             care requires both clinical expertise and genuine human
-                            connection. Dr. Ndlovu brings more than medical expertise. His
-                            artistic sensibility enhances his ability to see the whole person.
+                            connection. I bring more than medical expertise to my practice.
+                            My artistic sensibility enhances my ability to see the whole person.
                         </p>
                         <p className="text-neutral-600 mb-8 leading-relaxed">
-                            Our approach to healthcare combines advanced medical knowledge
+                            My approach to healthcare combines advanced medical knowledge
                             with the empathy and attention to detail that comes from truly
                             caring about each patient's journey to wellness. Every treatment
                             plan addresses not just symptoms, but the complete human

@@ -73,21 +73,21 @@ export function AboutSection() {
                         </h2>
                         <div className="space-y-4 text-neutral-600 leading-relaxed">
                             <p>
-                                Dr. Keith Ndlovu represents a rare combination of medical
-                                expertise and artistic vision. As CEO of Westpoint Medical
-                                Centre and founder of Artistico Studios, he demonstrates that
-                                the pursuit of excellence knows no boundaries.
+                                I've built my life at the intersection of medical expertise
+                                and artistic vision. As CEO of Westpoint Medical Centre
+                                and founder of Artistico Studios, I've learned that the
+                                pursuit of excellence knows no boundaries.
                             </p>
                             <p>
-                                His art reflects the same precision, empathy, and innovation
-                                that defines his medical practice. Each piece tells a story of
+                                My art reflects the same precision, empathy, and innovation
+                                that defines my medical practice. Each piece tells a story of
                                 human experience, informed by years of caring for patients and
                                 understanding the delicate balance between science and soul.
                             </p>
                             <p>
                                 From childhood drawings of the human body to performing
                                 life-saving treatments, from sketching portraits to founding an
-                                art studio that nurtures emerging talent. His journey proves
+                                art studio that nurtures emerging talent. My journey has shown me
                                 that excellence in one field can enhance excellence in another.
                             </p>
                         </div>
