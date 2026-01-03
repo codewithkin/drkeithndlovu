@@ -10,10 +10,7 @@ import { Button } from "@/components/ui/button";
 const navigationItems = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
-    { label: "Medical Practice", href: "/medical-practice" },
     { label: "Art Portfolio", href: "/art-portfolio" },
-    { label: "Artistico Studios", href: "/artistico-studios" },
-    { label: "Journal", href: "/journal" },
     { label: "Contact", href: "/contact" },
 ];
 

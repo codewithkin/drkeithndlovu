@@ -2,14 +2,12 @@ import Link from "next/link";
 
 const quickLinks = [
     { label: "Art Portfolio", href: "/art-portfolio" },
-    { label: "Medical Practice", href: "/medical-practice" },
-    { label: "Artistico Studios", href: "/artistico-studios" },
     { label: "Commission Art", href: "/contact?type=commission" },
+    { label: "Book Consultation", href: "/contact?type=medical" },
 ];
 
 const resourceLinks = [
     { label: "About Dr. Ndlovu", href: "/about" },
-    { label: "Journal", href: "/journal" },
     { label: "Press & Media", href: "/press" },
     { label: "Contact", href: "/contact" },
 ];

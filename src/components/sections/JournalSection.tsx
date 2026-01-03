@@ -1,8 +1,6 @@
 "use client";
 
 import { motion } from "motion/react";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { smoothTransition } from "@/lib/animations";
 
@@ -47,23 +45,15 @@ export function JournalSection() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true, margin: "-100px" }}
                     transition={smoothTransition}
-                    className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12"
+                    className="text-center max-w-3xl mx-auto mb-12"
                 >
-                    <div>
-                        <span className="text-amber-600 font-medium text-sm uppercase tracking-wider">
-                            Journal
-                        </span>
-                        <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mt-3">
-                            Latest Insights
-                        </h2>
-                    </div>
-                    <Button
-                        asChild
-                        variant="ghost"
-                        className="text-amber-600 hover:text-amber-700 hover:bg-amber-50 self-start md:self-auto"
-                    >
-                        <Link href="/journal">View All Articles →</Link>
-                    </Button>
+                    <span className="text-amber-600 font-medium text-sm uppercase tracking-wider">
+                        Journal
+                    </span>
+                    <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mt-3 mb-4">
+                        Latest Insights
+                    </h2>
+                    <p className="text-neutral-600">Thoughts on medicine, art, and leadership</p>
                 </motion.div>
 
                 {/* Posts Grid */}
@@ -125,12 +115,9 @@ export function JournalSection() {
                                     {/* Footer */}
                                     <div className="flex items-center justify-between pt-4 border-t border-neutral-100">
                                         <span className="text-xs text-neutral-500">{post.date}</span>
-                                        <Link
-                                            href={`/journal/${post.id}`}
-                                            className="text-sm font-medium text-neutral-900 hover:text-amber-600 transition-colors"
-                                        >
-                                            Read More →
-                                        </Link>
+                                        <span className="text-sm font-medium text-neutral-400">
+                                            {post.readTime}
+                                        </span>
                                     </div>
                                 </CardContent>
                             </Card>

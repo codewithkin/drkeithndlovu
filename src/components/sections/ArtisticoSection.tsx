@@ -83,7 +83,7 @@ export function ArtisticoSection() {
                                 asChild
                                 className="bg-white hover:bg-neutral-100 text-neutral-900 font-semibold"
                             >
-                                <Link href="/artistico-studios">Explore the Studio</Link>
+                                <Link href="/contact?type=art">Connect with Artistico</Link>
                             </Button>
                             <Button
                                 asChild

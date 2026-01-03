@@ -162,8 +162,8 @@ export function MedicalSection() {
                         </div>
 
                         <Button asChild className="bg-neutral-900 hover:bg-neutral-800">
-                            <Link href="/medical-practice">
-                                Learn More About Our Practice
+                            <Link href="/contact?type=medical">
+                                Book a Consultation
                             </Link>
                         </Button>
                     </motion.div>

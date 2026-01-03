@@ -98,7 +98,7 @@ export function HeroSection() {
                             size="lg"
                             className="border-neutral-300 hover:bg-neutral-50 px-8 py-6 text-lg"
                         >
-                            <Link href="/medical-practice">Medical Practice</Link>
+                            <Link href="/contact">Get in Touch</Link>
                         </Button>
                     </motion.div>
                 </motion.div>
