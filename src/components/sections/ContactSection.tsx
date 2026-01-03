@@ -305,7 +305,7 @@ export function ContactSection() {
                                                 <SelectItem value="partnership">
                                                     Business Partnership
                                                 </SelectItem>
-                                                <SelectItem value="press">Press & Media</SelectItem>
+                                                {/* Press & Media option removed */}
                                                 <SelectItem value="other">Other</SelectItem>
                                             </SelectContent>
                                         </Select>
@@ -340,7 +340,7 @@ export function ContactSection() {
                                     </Button>
 
                                     <p className="text-xs text-neutral-500 text-center">
-                                        By submitting this form, you agree to our privacy policy.
+                                        By submitting you agree to our data handling as described in this site's contact policy.
                                         I'll respond within 24-48 hours.
                                     </p>
                                 </form>

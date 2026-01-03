@@ -8,7 +8,6 @@ const quickLinks = [
 
 const resourceLinks = [
     { label: "About Dr. Ndlovu", href: "/about" },
-    { label: "Press & Media", href: "/press" },
     { label: "Contact", href: "/contact" },
 ];
 
@@ -128,12 +127,7 @@ export function Footer() {
                             © {new Date().getFullYear()} Dr. Keith Ndlovu. All rights reserved.
                         </p>
                         <div className="flex gap-6 text-sm text-neutral-500">
-                            <Link href="/privacy" className="hover:text-white transition-colors">
-                                Privacy Policy
-                            </Link>
-                            <Link href="/terms" className="hover:text-white transition-colors">
-                                Terms of Service
-                            </Link>
+                            {/* Footer links removed: Privacy Policy and Terms of Service intentionally omitted */}
                         </div>
                     </div>
                 </div>
