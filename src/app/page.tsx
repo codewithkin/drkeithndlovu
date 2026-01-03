@@ -4,7 +4,6 @@ import {
   ArtworkSection,
   MedicalSection,
   ArtisticoSection,
-  JournalSection,
   ContactSection,
 } from "@/components/sections";
 
@@ -25,9 +24,6 @@ export default function Home() {
 
       {/* Artistico Studios - Art business section */}
       <ArtisticoSection />
-
-      {/* Journal - Blog/insights preview */}
-      <JournalSection />
 
       {/* Contact - Get in touch section */}
       <ContactSection />
