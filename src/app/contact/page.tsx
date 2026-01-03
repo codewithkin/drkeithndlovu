@@ -215,7 +215,7 @@ export default function ContactPage() {
                                 <h3 className="text-lg font-semibold text-neutral-900">
                                     Quick Contact
                                 </h3>
-                                
+
                                 <div className="space-y-4">
                                     <div className="flex items-start gap-4">
                                         <Mail className="w-5 h-5 text-amber-600 mt-0.5" />

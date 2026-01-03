@@ -179,11 +179,10 @@ export default function ArtPortfolioPage() {
                             <button
                                 key={category}
                                 onClick={() => setSelectedCategory(category)}
-                                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
-                                    selectedCategory === category
+                                className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${selectedCategory === category
                                         ? "bg-neutral-900 text-white"
                                         : "bg-neutral-100 text-neutral-600 hover:bg-neutral-200"
-                                }`}
+                                    }`}
                             >
                                 {category}
                             </button>
@@ -240,11 +239,10 @@ export default function ArtPortfolioPage() {
                                         {/* Availability Badge */}
                                         <div className="absolute top-4 left-4">
                                             <span
-                                                className={`px-3 py-1 text-xs font-medium rounded-full ${
-                                                    artwork.available
+                                                className={`px-3 py-1 text-xs font-medium rounded-full ${artwork.available
                                                         ? "bg-amber-100 text-amber-700"
                                                         : "bg-neutral-200 text-neutral-600"
-                                                }`}
+                                                    }`}
                                             >
                                                 {artwork.available ? "Available" : "Sold"}
                                             </span>
@@ -333,11 +331,10 @@ export default function ArtPortfolioPage() {
                                 <div className="flex items-start justify-between mb-4">
                                     <div>
                                         <span
-                                            className={`inline-block px-3 py-1 text-xs font-medium rounded-full mb-3 ${
-                                                selectedArtwork.available
+                                            className={`inline-block px-3 py-1 text-xs font-medium rounded-full mb-3 ${selectedArtwork.available
                                                     ? "bg-amber-100 text-amber-700"
                                                     : "bg-neutral-200 text-neutral-600"
-                                            }`}
+                                                }`}
                                         >
                                             {selectedArtwork.available ? "Available" : "Sold"}
                                         </span>
