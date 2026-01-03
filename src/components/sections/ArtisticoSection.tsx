@@ -47,7 +47,7 @@ export function ArtisticoSection() {
                             <span className="text-amber-400">Studios</span>
                         </h2>
                         <p className="text-lg text-neutral-300 mb-6 leading-relaxed">
-                            More than a gallery—Artistico Studios is a creative ecosystem
+                            More than a gallery, Artistico Studios is a creative ecosystem
                             where art is born, shared, and celebrated. Founded by Dr. Keith
                             Ndlovu to bridge the gap between artists and art lovers.
                         </p>

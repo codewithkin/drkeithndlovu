@@ -112,7 +112,7 @@ export function MedicalSection() {
                         <p className="text-lg text-neutral-600 mb-6 leading-relaxed">
                             At Westpoint Medical Centre, we believe that exceptional medical
                             care requires both clinical expertise and genuine human
-                            connection. Dr. Ndlovu brings more than medical expertise—his
+                            connection. Dr. Ndlovu brings more than medical expertise. His
                             artistic sensibility enhances his ability to see the whole person.
                         </p>
                         <p className="text-neutral-600 mb-8 leading-relaxed">

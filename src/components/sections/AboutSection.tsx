@@ -87,7 +87,7 @@ export function AboutSection() {
                             <p>
                                 From childhood drawings of the human body to performing
                                 life-saving treatments, from sketching portraits to founding an
-                                art studio that nurtures emerging talent— his journey proves
+                                art studio that nurtures emerging talent. His journey proves
                                 that excellence in one field can enhance excellence in another.
                             </p>
                         </div>
